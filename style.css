@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-image: url(img3/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.blackbox {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.48);
+    border-radius: 17px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 49%;
+    width: auto;
+    height: auto;  
+}
+
+h2{
+    color: #00dd00;}
+.uno {
+    text-align:center;
+}
+
+
+.uno img {
+    width: 200px;
+    margin-top: 90px;
+}
+
+
+.uno h2 {
+    font-size: 28px;
+    color: lime;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+.container {
+    width: 950px;
+    margin: auto;
+    padding: 5px 100px 0px 100px;
+}
+
+nav {
+    width: auto;
+    
+    
+}
+nav>div {
+    text-align: center;
+    background-color: #00dd00;
+    height: 30px;
+    padding: 4px;
+}
+
+
+div>button {
+    font-size: 10px;
+}
+
+div {
+    color: white;
+}
+
+div>h3 {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+#luogo {
+    font-size: 13px;
+}
+
+
+.freccia:before {
+    content: "\21A6";
+    font-size: 13px;
+}
+
+.batteria-gino {
+    display: block;
+    background-color: #f5b453;
+    height: 25px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.batteria-mike {
+    display: block;
+    background-color:#1ec31e;
+    height: 25px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+
+.batteria-fede {
+    display: block;
+    background-color:#be4141;
+    height: 25px;
+    width: 15%;
+    border-radius: 5px;
+    margin-bottom: 90px;
+}
+
